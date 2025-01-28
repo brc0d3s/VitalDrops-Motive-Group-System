@@ -1,0 +1,111 @@
+.upperHeader{
+	background:#2A1E4E; 
+	width:100%; 
+	height:37px; 
+	overflow:hidden; 
+	font-family:Agency FB
+}
+.upperHeader ul{
+	list-style:none; 
+	text-align:center; 
+	margin-top:6px
+}
+.upperHeader ul li{
+	display:inline-block
+}
+.upperHeader ul li a{
+	display:block; 
+	color:#91E6F4; 
+	text-decoration:none; 
+	font-size:15px; 
+	width:155px; 
+	padding:2px
+}
+.upperHeader ul li a:hover{
+	color:#ffffff
+}
+
+.header{
+	background:#207337; 
+	height:160px; 
+	overflow:hidden
+}
+.header ul{
+	list-style:none; 
+	text-align:center
+}
+.header ul li{
+	display:inline-block
+}
+.header ul li a{
+	display:block;
+	text-decoration:none
+}
+.header ul li a:hover{
+	color:#CA824B
+}
+
+.headerPic1{
+	float:left;
+	margin-left:9%; 
+	padding:0px
+}
+.headerPic1Text{
+	color:#FFDF45
+}
+
+.homeGroupLog{
+	float:center;
+	text-align:center; 
+	margin-top:55px; 
+	font-size:17px; 
+	margin: left 42px
+}
+.headerPic2{
+	padding:0px 35px
+}
+.headerPic3{
+	padding:0px 35px
+}
+.headerPic4{
+	padding:0px 35px
+}
+
+.headerText{
+	float:right; 
+	margin-top:40px; 
+	margin-right:110px
+}
+.header h3{
+	color:#D1904C;
+	font-size:23px;
+	font-family:Agency FB; 
+	padding:10px
+}
+
+
+
+.mainmenu{
+	background:#EA0021; 
+	height:40px; 
+	overflow:hidden; 
+	font-family:Agency FB
+}
+.mainmenu ul{
+	list-style:none; 
+	text-align:center; 
+	margin-top:8px
+}
+.mainmenu ul li{
+	display:inline-block
+}
+.mainmenu ul li a{
+	display:block; 
+	color:#ffffff; 
+	text-decoration:none; 
+	font-size:20px; 
+	width:210px
+}
+.mainmenu ul li a:hover{
+	color:#91E6F4
+}

@@ -6,9 +6,9 @@
     <title>Gallery</title>
     
     <link href="img/logo.ico" rel="icon" type="image/x-icon" />
-    <link rel="css/stylesheet" href="navBar.css">
-    <link rel="css/stylesheet" href="footer.css">
+    <link href="css/navBar.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/footer.css" rel="stylesheet" type="text/css" />
    
 </head>
 <body>
