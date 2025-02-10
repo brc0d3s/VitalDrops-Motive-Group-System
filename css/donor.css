@@ -214,3 +214,106 @@
 .login-btn:hover {
     color: #d32f2f;
 }
+
+
+
+/* Donor DashBoard*/
+.dashboard-container {
+    display: flex;
+    min-height: 100vh; /* Ensures the background covers the full page */
+    background-color: hsl(224, 57%, 9%);
+    color: white;
+    position: fixed;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #d32f2f;
+    padding-top: 20px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #b71c1c;
+    transition: 0.3s;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 40px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dashboard-header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffebee;
+}
+
+.dashboard-description {
+    max-width: 600px;
+    font-size: 1.2rem;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+.dashboard-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    color: #333;
+}
+
+.card h3 {
+    color: #d32f2f;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
+}
