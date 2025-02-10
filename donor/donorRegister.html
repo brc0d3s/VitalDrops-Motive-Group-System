@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donor Registration</title>
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/donor.css">
+</head>
+<body>
+
+    <div class="registration-container">
+        <form action="submit_registration.php" method="POST" class="registration-form">
+            <h2>Blood Donor Registration</h2>
+
+            <div class="input-group">
+                <label for="nationalID">National ID:</label>
+                <input type="text" id="nationalID" name="nationalID" required>
+            </div>
+
+            <div class="input-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+
+            <div class="input-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+
+            <div class="input-group">
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="surname" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="phoneNo">Phone Number:</label>
+                <input type="tel" id="phoneNo" name="phoneNo" pattern="[0-9]{10}" required>
+            </div>
+
+            <div class="input-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="input-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="bloodType">Blood Type:</label>
+                <select id="bloodType" name="bloodType" required>
+                    <option value="" disabled selected>Select Blood Type</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="input-group">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+
+            <button type="submit" class="submit-btn">Register</button>
+
+            <div class="back-home">
+                <a href="../index.html" class="back-home-btn">Back to Homepage</a>
+            </div>
+
+            <div class="login-link">
+                <p>Already have an account? <a href="donorLogin.html" class="login-btn">Login here</a></p>
+            </div>
+        </form>
+    </div>
+
+    <section class="footer">
+        <div class="footer-content">
+            <div class="footer-section contact">
+                <h3>Contact</h3>
+                <p><strong>Head Office:</strong></p>
+                <p>Tom Mboya Street, Imenti House, 2nd Floor, Room No. 5, Nairobi, Kenya</p>
+                <p><strong>Phone:</strong></p>
+                <p>+254 712 345678, +254 722 987654</p>
+            </div>
+            <div class="footer-section map">
+                <h3>Google Maps</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.808234715929!2d36.82121431475391!3d-1.286385835980925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMTcnMTEuMCJTIDM2wrA0OScyMi4wIkU!5e0!3m2!1sen!2ske!4v1622549400000!5m2!1sen!2ske"
+                    width="100%"
+                    height="200"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    aria-label="Google Maps Location">
+                </iframe>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Google"><i class="fab fa-google"></i></a>
+                    <a href="#" aria-label="Skype"><i class="fab fa-skype"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="Digg"><i class="fab fa-digg"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 . VitalDrops Motive Group. All Rights Reserved</p>
+        </div>
+    </section>
+</body>
+</html>
