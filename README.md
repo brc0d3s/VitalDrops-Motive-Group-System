@@ -13,3 +13,9 @@ As a digital initiative, VitalDrops combines technology with compassion to suppo
 - **Resource Sharing**: Access to essential resources and information for donors and recipients.
 - **Community Support**: A platform to foster collaboration and social responsibility.
 
+### **System OverView**
+<div align="center">
+  <img src="DOCUMENTATION/VitalDrops.png" alt="Web Overview"/>
+</div>
+
+---
