@@ -139,7 +139,7 @@ input:disabled, button:disabled {
 }
 
 .dashboard-container {
-    margin-left: 270px; /* Adjusted for sidebar width */
+    margin-left: 270px; 
     padding: 20px;
     width: calc(100% - 270px);
 }
